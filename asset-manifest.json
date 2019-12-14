@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/colors-word-cloud/static/css/main.d1b05096.chunk.css",
-    "main.js": "/colors-word-cloud/static/js/main.da74c220.chunk.js",
-    "main.js.map": "/colors-word-cloud/static/js/main.da74c220.chunk.js.map",
-    "runtime-main.js": "/colors-word-cloud/static/js/runtime-main.92ff2f7f.js",
-    "runtime-main.js.map": "/colors-word-cloud/static/js/runtime-main.92ff2f7f.js.map",
-    "static/js/2.9a591e83.chunk.js": "/colors-word-cloud/static/js/2.9a591e83.chunk.js",
-    "static/js/2.9a591e83.chunk.js.map": "/colors-word-cloud/static/js/2.9a591e83.chunk.js.map",
-    "index.html": "/colors-word-cloud/index.html",
-    "precache-manifest.82374a669eac702ac1b3f4318c2d59a2.js": "/colors-word-cloud/precache-manifest.82374a669eac702ac1b3f4318c2d59a2.js",
-    "service-worker.js": "/colors-word-cloud/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/colors-word-cloud/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.9a591e83.chunk.js.LICENSE": "/colors-word-cloud/static/js/2.9a591e83.chunk.js.LICENSE",
-    "static/media/logo.svg": "/colors-word-cloud/static/media/logo.5d5d9eef.svg"
+    "main.css": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css",
+    "main.js": "/word-cloud-color-rapsodie/static/js/main.cd4737ec.chunk.js",
+    "main.js.map": "/word-cloud-color-rapsodie/static/js/main.cd4737ec.chunk.js.map",
+    "runtime-main.js": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js",
+    "runtime-main.js.map": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js.map",
+    "static/js/2.9a591e83.chunk.js": "/word-cloud-color-rapsodie/static/js/2.9a591e83.chunk.js",
+    "static/js/2.9a591e83.chunk.js.map": "/word-cloud-color-rapsodie/static/js/2.9a591e83.chunk.js.map",
+    "index.html": "/word-cloud-color-rapsodie/index.html",
+    "precache-manifest.812020bff11365843ea74773f2293b00.js": "/word-cloud-color-rapsodie/precache-manifest.812020bff11365843ea74773f2293b00.js",
+    "service-worker.js": "/word-cloud-color-rapsodie/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.9a591e83.chunk.js.LICENSE": "/word-cloud-color-rapsodie/static/js/2.9a591e83.chunk.js.LICENSE",
+    "static/media/logo.svg": "/word-cloud-color-rapsodie/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.92ff2f7f.js",
+    "static/js/runtime-main.b2e584eb.js",
     "static/js/2.9a591e83.chunk.js",
     "static/css/main.d1b05096.chunk.css",
-    "static/js/main.da74c220.chunk.js"
+    "static/js/main.cd4737ec.chunk.js"
   ]
 }
