@@ -9,6 +9,7 @@ import WhiteSpace from "../components/WhiteSpace";
 import Switch from "@material-ui/core/Switch";
 import { makeStyles } from "@material-ui/core/styles";
 import "../App.css";
+import KeyboardInput from "./KeyboardInput";
 
 const useStyles = makeStyles({
   rootStyle: {
@@ -33,7 +34,7 @@ function Layout(props) {
     colorList[getRandomInt(colorList.length - 1)]
   );
   const [verb, setVerb] = useState(false);
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(true);
   const classes = useStyles();
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -57,8 +58,12 @@ function Layout(props) {
       ) : (
         <>
           <WhiteSpace />
+          <KeyboardInput current={currentColor} setColor={setCurrentColor} />
           <p
-            style={{ color: currentColor.name === "blanc" ? "black" : "white" }}
+            style={{
+              color: currentColor.name === "blanc" ? "black" : "white",
+              transition: "0.5s ease-in-out"
+            }}
             className={classes.text}
           >
             Include verbs into word cloud
@@ -68,7 +73,7 @@ function Layout(props) {
             checked={verb}
             onChange={() => setVerb(!verb)}
             value="checkedA"
-            inputProps={{ "aria-label": "secondary checkbox" }}
+            inputProps={{ "aria-label": "yellow" }}
           />
           <WhiteSpace />
           <Words verb={verb} current={currentColor} words={words} />
