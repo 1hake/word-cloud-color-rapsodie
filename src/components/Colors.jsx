@@ -11,7 +11,8 @@ function Colors(props) {
         height: "20vh",
         display: "flex",
         justifyContent: "space-evenly",
-        alignItems: "center"
+        alignItems: "center",
+        marginRight: (50 * (colorList.length - 1) + 70 * colorList.length) / 2
       }}
     >
       {colorList.map((color, index) => {
@@ -30,14 +31,14 @@ function ColorItem(props, color, index) {
       }}
       style={{
         overflow: "hidden",
-        height: selected ? "350vh" : "5vh",
-        width: selected ? "350vh" : "5vh",
+        height: selected ? "350vh" : "50px",
+        width: selected ? "350vh" : "50px",
         borderRadius: "100%",
         transition: selected ? "0.6s ease-in" : "0s ease-in",
         backgroundColor: color.color,
         position: "absolute",
         marginLeft: index * 70,
-        zIndex: selected ? 0 : 1
+        zIndex: selected ? 0 : 3
       }}
     ></div>
   );

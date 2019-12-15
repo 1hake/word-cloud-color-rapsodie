@@ -46,12 +46,7 @@ function setWords(current, verb) {
 
 function Words(props) {
   const options = {
-    colors:
-      props.current.name === "noir" ||
-      props.current.name === "bleu" ||
-      props.current.name === "rouge"
-        ? ["white"]
-        : ["black"],
+    colors: props.current.name === "blanc" ? ["black"] : ["white"],
     enableTooltip: false,
     deterministic: false,
     fontFamily: "Barlow Condensed",
@@ -66,7 +61,7 @@ function Words(props) {
     transitionDuration: 1000
   };
   return (
-    <div style={{ width: "100%", height: "60vh", zIndex: 2 }}>
+    <div style={{ width: "100%", height: "60vh", zIndex: 100 }}>
       <ReactWordcloud
         options={options}
         words={setWords(props.current, props.verb)}

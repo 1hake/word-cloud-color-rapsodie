@@ -19,7 +19,7 @@ const useStyles = makeStyles({
   },
   text: {
     fontFamily: "Barlow",
-    color: "white",
+    fontWeight: "bold",
     zIndex: 2
   },
   switch: {
@@ -55,7 +55,12 @@ function Layout(props) {
       ) : (
         <>
           <WhiteSpace />
-          <p className={classes.text}>Include verbs into word cloud</p>
+          <p
+            style={{ color: currentColor.name === "blanc" ? "black" : "white" }}
+            className={classes.text}
+          >
+            Include verbs into word cloud
+          </p>
           <Switch
             className={classes.switch}
             checked={verb}
