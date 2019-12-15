@@ -15,24 +15,29 @@ function Colors(props) {
       }}
     >
       {colorList.map((color, index) => {
-        return ColorItem(props, color);
+        return ColorItem(props, color, index);
       })}
     </div>
   );
 }
 
-function ColorItem(props, color) {
+function ColorItem(props, color, index) {
+  const selected = color === props.current;
   return (
     <div
       onClick={() => {
         props.setColor(color);
       }}
       style={{
-        height: "40px",
-        width: "40px",
+        overflow: "hidden",
+        height: selected ? "350vh" : "5vh",
+        width: selected ? "350vh" : "5vh",
         borderRadius: "100%",
-        transition: "0.5s ease-in",
-        backgroundColor: color.color
+        transition: selected ? "0.6s ease-in" : "0s ease-in",
+        backgroundColor: color.color,
+        position: "absolute",
+        marginLeft: index * 70,
+        zIndex: selected ? 0 : 1
       }}
     ></div>
   );

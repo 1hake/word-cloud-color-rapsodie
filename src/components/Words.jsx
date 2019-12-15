@@ -13,7 +13,7 @@ import vert_verb from "../constants/colors/vert_verb";
 import blanc_verb from "../constants/colors/blanc_verb";
 
 function setWords(current, verb) {
-  if (verb) {
+  if (!verb) {
     if (current.name === "noir") {
       return convertToWCType(noir);
     } else if (current.name === "rouge") {

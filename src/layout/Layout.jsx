@@ -7,6 +7,7 @@ import { colorList } from "../constants/colorList";
 import WhiteSpace from "../components/WhiteSpace";
 import Switch from "@material-ui/core/Switch";
 import { makeStyles } from "@material-ui/core/styles";
+import "../App.css";
 
 const useStyles = makeStyles({
   rootStyle: {
@@ -18,14 +19,18 @@ const useStyles = makeStyles({
   },
   text: {
     fontFamily: "Barlow",
-    color: "white"
+    color: "white",
+    zIndex: 2
+  },
+  switch: {
+    zIndex: 2
   }
 });
 
 function Layout(props) {
   const [currentColor, setCurrentColor] = useState(colorList[0]);
   const [verb, setVerb] = useState(false);
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(true);
   const classes = useStyles();
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -39,8 +44,10 @@ function Layout(props) {
     <div
       className={classes.rootStyle}
       style={{
-        backgroundColor: currentColor ? currentColor.color : "grey",
-        transition: "1.8s ease"
+        backgroundColor: currentColor ? currentColor.color : "white",
+        transition: "0s ease-in",
+        transitionDelay: "1s"
+        // zIndex: -1000
       }}
     >
       {!loaded ? (
@@ -50,6 +57,7 @@ function Layout(props) {
           <WhiteSpace />
           <p className={classes.text}>Include verbs into word cloud</p>
           <Switch
+            className={classes.switch}
             checked={verb}
             onChange={() => setVerb(!verb)}
             value="checkedA"
