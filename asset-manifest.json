@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/word-cloud-color-rapsodie/static/css/main.314c2cf1.chunk.css",
-    "main.js": "/word-cloud-color-rapsodie/static/js/main.6a635a2c.chunk.js",
-    "main.js.map": "/word-cloud-color-rapsodie/static/js/main.6a635a2c.chunk.js.map",
+    "main.js": "/word-cloud-color-rapsodie/static/js/main.67194a7c.chunk.js",
+    "main.js.map": "/word-cloud-color-rapsodie/static/js/main.67194a7c.chunk.js.map",
     "runtime-main.js": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js",
     "runtime-main.js.map": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js.map",
     "static/js/2.1fcd297b.chunk.js": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js",
     "static/js/2.1fcd297b.chunk.js.map": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js.map",
     "index.html": "/word-cloud-color-rapsodie/index.html",
-    "precache-manifest.1876641ef264f5517eb09152e6b90d3a.js": "/word-cloud-color-rapsodie/precache-manifest.1876641ef264f5517eb09152e6b90d3a.js",
+    "precache-manifest.073ba6e78d2c8490a52155b1ec0c2293.js": "/word-cloud-color-rapsodie/precache-manifest.073ba6e78d2c8490a52155b1ec0c2293.js",
     "service-worker.js": "/word-cloud-color-rapsodie/service-worker.js",
     "static/css/main.314c2cf1.chunk.css.map": "/word-cloud-color-rapsodie/static/css/main.314c2cf1.chunk.css.map",
     "static/js/2.1fcd297b.chunk.js.LICENSE": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.b2e584eb.js",
     "static/js/2.1fcd297b.chunk.js",
     "static/css/main.314c2cf1.chunk.css",
-    "static/js/main.6a635a2c.chunk.js"
+    "static/js/main.67194a7c.chunk.js"
   ]
 }
