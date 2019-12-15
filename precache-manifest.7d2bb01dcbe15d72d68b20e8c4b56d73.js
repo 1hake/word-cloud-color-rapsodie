@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "707e6c04f9ac9b255f30575cb0903778",
+    "revision": "c456a35bb63a0725d03eb6a3ed313974",
     "url": "/word-cloud-color-rapsodie/index.html"
   },
   {
-    "revision": "dcb02029e8d70488cdbf",
+    "revision": "2c18903d702c815a961f",
     "url": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/word-cloud-color-rapsodie/static/js/2.9a591e83.chunk.js.LICENSE"
   },
   {
-    "revision": "dcb02029e8d70488cdbf",
-    "url": "/word-cloud-color-rapsodie/static/js/main.cd4737ec.chunk.js"
+    "revision": "2c18903d702c815a961f",
+    "url": "/word-cloud-color-rapsodie/static/js/main.4a31b1f0.chunk.js"
   },
   {
     "revision": "1fd907920d6b72f514a7",
