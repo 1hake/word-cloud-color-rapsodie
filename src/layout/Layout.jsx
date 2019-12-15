@@ -17,7 +17,7 @@ const rootStyle = {
 
 function Layout(props) {
   const [currentColor, setCurrentColor] = useState(colorList[0]);
-  const [loaded, setLoaded] = useState(false);
+  const [loaded, setLoaded] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoaded(true);
@@ -31,7 +31,7 @@ function Layout(props) {
       style={{
         ...rootStyle,
         backgroundColor: currentColor ? currentColor.color : "grey",
-        transition: "1s ease"
+        transition: "1.8s ease"
       }}
     >
       {!loaded ? (

@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { colorList } from "../constants/colorList";
 
 function Colors(props) {
+  const [open, setOpen] = useState(null);
+
   return (
     <div
       style={{
@@ -12,7 +14,7 @@ function Colors(props) {
         alignItems: "center"
       }}
     >
-      {colorList.map(color => {
+      {colorList.map((color, index) => {
         return ColorItem(props, color);
       })}
     </div>
@@ -20,17 +22,16 @@ function Colors(props) {
 }
 
 function ColorItem(props, color) {
-  const [open, setOpen] = useState(false);
   return (
     <div
-      onMouseEnter={() => setOpen(!open)}
-      onMouseLeave={() => setOpen(!open)}
-      onClick={() => props.setColor(color)}
+      onClick={() => {
+        props.setColor(color);
+      }}
       style={{
-        height: open ? "60px" : "40px",
-        width: open ? "60px" : "40px",
+        height: "40px",
+        width: "40px",
         borderRadius: "100%",
-        transition: "0.2s ease-in-out",
+        transition: "0.5s ease-in",
         backgroundColor: color.color
       }}
     ></div>

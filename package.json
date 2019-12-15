@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://1hake.github.io/react-landing-rapsodie",
+  "homepage": "https://1hake.github.io/word-cloud-color-rapsodie/",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.6.0",
