@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4258ea85a8a7c35b11adc92f44f04144",
+    "revision": "fffc325bac3bf5ed7bab0d554b419c9e",
     "url": "/word-cloud-color-rapsodie/index.html"
   },
   {
-    "revision": "3a7816f8dec3cc77a35e",
-    "url": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css"
+    "revision": "a1d09d84d2511bdc4b74",
+    "url": "/word-cloud-color-rapsodie/static/css/main.314c2cf1.chunk.css"
   },
   {
-    "revision": "da347bd1720bd05a8d2b",
-    "url": "/word-cloud-color-rapsodie/static/js/2.d7e6bd9d.chunk.js"
+    "revision": "cf17abb28efa24507168",
+    "url": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js"
   },
   {
     "revision": "9652715b819d26dcc09aad3261a56a36",
-    "url": "/word-cloud-color-rapsodie/static/js/2.d7e6bd9d.chunk.js.LICENSE"
+    "url": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js.LICENSE"
   },
   {
-    "revision": "3a7816f8dec3cc77a35e",
-    "url": "/word-cloud-color-rapsodie/static/js/main.68363e85.chunk.js"
+    "revision": "a1d09d84d2511bdc4b74",
+    "url": "/word-cloud-color-rapsodie/static/js/main.7e8f603e.chunk.js"
   },
   {
     "revision": "1fd907920d6b72f514a7",

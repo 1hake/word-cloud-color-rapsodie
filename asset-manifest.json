@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css",
-    "main.js": "/word-cloud-color-rapsodie/static/js/main.68363e85.chunk.js",
-    "main.js.map": "/word-cloud-color-rapsodie/static/js/main.68363e85.chunk.js.map",
+    "main.css": "/word-cloud-color-rapsodie/static/css/main.314c2cf1.chunk.css",
+    "main.js": "/word-cloud-color-rapsodie/static/js/main.7e8f603e.chunk.js",
+    "main.js.map": "/word-cloud-color-rapsodie/static/js/main.7e8f603e.chunk.js.map",
     "runtime-main.js": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js",
     "runtime-main.js.map": "/word-cloud-color-rapsodie/static/js/runtime-main.b2e584eb.js.map",
-    "static/js/2.d7e6bd9d.chunk.js": "/word-cloud-color-rapsodie/static/js/2.d7e6bd9d.chunk.js",
-    "static/js/2.d7e6bd9d.chunk.js.map": "/word-cloud-color-rapsodie/static/js/2.d7e6bd9d.chunk.js.map",
+    "static/js/2.1fcd297b.chunk.js": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js",
+    "static/js/2.1fcd297b.chunk.js.map": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js.map",
     "index.html": "/word-cloud-color-rapsodie/index.html",
-    "precache-manifest.39280c335acf31b8064faae6f1fc3a15.js": "/word-cloud-color-rapsodie/precache-manifest.39280c335acf31b8064faae6f1fc3a15.js",
+    "precache-manifest.8d4fde87e009ca17ae3408506c9d4afb.js": "/word-cloud-color-rapsodie/precache-manifest.8d4fde87e009ca17ae3408506c9d4afb.js",
     "service-worker.js": "/word-cloud-color-rapsodie/service-worker.js",
-    "static/css/main.d1b05096.chunk.css.map": "/word-cloud-color-rapsodie/static/css/main.d1b05096.chunk.css.map",
-    "static/js/2.d7e6bd9d.chunk.js.LICENSE": "/word-cloud-color-rapsodie/static/js/2.d7e6bd9d.chunk.js.LICENSE",
+    "static/css/main.314c2cf1.chunk.css.map": "/word-cloud-color-rapsodie/static/css/main.314c2cf1.chunk.css.map",
+    "static/js/2.1fcd297b.chunk.js.LICENSE": "/word-cloud-color-rapsodie/static/js/2.1fcd297b.chunk.js.LICENSE",
     "static/media/logo.svg": "/word-cloud-color-rapsodie/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b2e584eb.js",
-    "static/js/2.d7e6bd9d.chunk.js",
-    "static/css/main.d1b05096.chunk.css",
-    "static/js/main.68363e85.chunk.js"
+    "static/js/2.1fcd297b.chunk.js",
+    "static/css/main.314c2cf1.chunk.css",
+    "static/js/main.7e8f603e.chunk.js"
   ]
 }
