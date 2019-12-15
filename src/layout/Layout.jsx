@@ -30,7 +30,7 @@ const useStyles = makeStyles({
 
 function Layout(props) {
   const [currentColor, setCurrentColor] = useState(
-    colorList[getRandomInt(colorList.length)]
+    colorList[getRandomInt(colorList.length - 1)]
   );
   const [verb, setVerb] = useState(false);
   const [loaded, setLoaded] = useState(false);
