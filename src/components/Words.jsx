@@ -6,20 +6,41 @@ import rouge from "../constants/colors/rouge";
 import bleu from "../constants/colors/bleu";
 import vert from "../constants/colors/vert";
 import blanc from "../constants/colors/blanc";
+import noir_verb from "../constants/colors/noir_verb";
+import rouge_verb from "../constants/colors/rouge_verb";
+import bleu_verb from "../constants/colors/bleu_verb";
+import vert_verb from "../constants/colors/vert_verb";
+import blanc_verb from "../constants/colors/blanc_verb";
 
-function setWords(current) {
-  if (current.name === "noir") {
-    return convertToWCType(noir);
-  } else if (current.name === "rouge") {
-    return convertToWCType(rouge);
-  } else if (current.name === "bleu") {
-    return convertToWCType(bleu);
-  } else if (current.name === "vert") {
-    return convertToWCType(vert);
-  } else if (current.name === "blanc") {
-    return convertToWCType(blanc);
+function setWords(current, verb) {
+  if (verb) {
+    if (current.name === "noir") {
+      return convertToWCType(noir);
+    } else if (current.name === "rouge") {
+      return convertToWCType(rouge);
+    } else if (current.name === "bleu") {
+      return convertToWCType(bleu);
+    } else if (current.name === "vert") {
+      return convertToWCType(vert);
+    } else if (current.name === "blanc") {
+      return convertToWCType(blanc);
+    } else {
+      return convertToWCType(noir);
+    }
   } else {
-    return convertToWCType(noir);
+    if (current.name === "noir") {
+      return convertToWCType(noir_verb);
+    } else if (current.name === "rouge") {
+      return convertToWCType(rouge_verb);
+    } else if (current.name === "bleu") {
+      return convertToWCType(bleu_verb);
+    } else if (current.name === "vert") {
+      return convertToWCType(vert_verb);
+    } else if (current.name === "blanc") {
+      return convertToWCType(blanc_verb);
+    } else {
+      return convertToWCType(noir_verb);
+    }
   }
 }
 
@@ -46,7 +67,10 @@ function Words(props) {
   };
   return (
     <div style={{ width: "100%", height: "60vh", zIndex: 2 }}>
-      <ReactWordcloud options={options} words={setWords(props.current)} />
+      <ReactWordcloud
+        options={options}
+        words={setWords(props.current, props.verb)}
+      />
     </div>
   );
 }
