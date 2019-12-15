@@ -8,7 +8,7 @@ function Colors(props) {
     <div
       style={{
         width: "80%",
-        height: "20vh",
+        height: "10vh",
         display: "flex",
         justifyContent: "space-evenly",
         alignItems: "center",
@@ -35,6 +35,7 @@ function ColorItem(props, color, index) {
         width: selected ? "350vh" : "50px",
         borderRadius: "100%",
         transition: selected ? "0.6s ease-in" : "0s ease-in",
+
         backgroundColor: color.color,
         position: "absolute",
         marginLeft: index * 70,

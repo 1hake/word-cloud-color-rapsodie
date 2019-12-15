@@ -9,7 +9,7 @@ const useStyles = makeStyles({
     width: "70%",
     height: "100px",
     fontSize: "1.25rem",
-    fontFamily: "Barlow",
+    fontFamily: "Barlow Condensed",
     display: "flex",
     justifyContent: "center",
     alignItems: "center"

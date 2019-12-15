@@ -46,7 +46,10 @@ function setWords(current, verb) {
 
 function Words(props) {
   const options = {
-    colors: props.current.name === "blanc" ? ["black"] : ["white"],
+    colors:
+      props.current.name === "blanc" || props.current.name === "vert"
+        ? ["black"]
+        : ["white"],
     enableTooltip: false,
     deterministic: false,
     fontFamily: "Barlow Condensed",

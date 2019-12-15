@@ -10,6 +10,7 @@ import Switch from "@material-ui/core/Switch";
 import { makeStyles } from "@material-ui/core/styles";
 import "../App.css";
 import KeyboardInput from "./KeyboardInput";
+import VerbSwitch from "../components/VerbSwitch";
 
 const useStyles = makeStyles({
   rootStyle: {
@@ -59,25 +60,14 @@ function Layout(props) {
         <>
           <WhiteSpace />
           <KeyboardInput current={currentColor} setColor={setCurrentColor} />
-          <p
-            style={{
-              color: currentColor.name === "blanc" ? "black" : "white",
-              transition: "0.5s ease-in-out"
-            }}
-            className={classes.text}
-          >
-            Include verbs into word cloud
-          </p>
-          <Switch
-            className={classes.switch}
-            checked={verb}
-            onChange={() => setVerb(!verb)}
-            value="checkedA"
-            inputProps={{ "aria-label": "yellow" }}
-          />
           <WhiteSpace />
           <Words verb={verb} current={currentColor} words={words} />
           <Colors current={currentColor} setColor={setCurrentColor} />
+          <VerbSwitch
+            currentColor={currentColor}
+            verb={verb}
+            setVerb={setVerb}
+          />
         </>
       )}
     </div>

@@ -6,17 +6,17 @@ export const colorList = [
   },
   {
     name: "rouge",
-    color: "red",
+    color: "#fe0204",
     index: 1
   },
   {
     name: "bleu",
-    color: "blue",
+    color: "#433Df5",
     index: 2
   },
   {
     name: "vert",
-    color: "green",
+    color: "#00FFBE",
     index: 3
   },
   {
