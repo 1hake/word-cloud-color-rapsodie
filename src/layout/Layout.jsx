@@ -4,6 +4,7 @@ import Colors from "../components/Colors";
 import words from "../constants/words";
 import RapsodieTitle from "../components/RapsodieTitle";
 import { colorList } from "../constants/colorList";
+import { getRandomInt } from "../tools/tools";
 import WhiteSpace from "../components/WhiteSpace";
 import Switch from "@material-ui/core/Switch";
 import { makeStyles } from "@material-ui/core/styles";
@@ -28,18 +29,19 @@ const useStyles = makeStyles({
 });
 
 function Layout(props) {
-  const [currentColor, setCurrentColor] = useState(colorList[0]);
+  const [currentColor, setCurrentColor] = useState(
+    colorList[getRandomInt(colorList.length)]
+  );
   const [verb, setVerb] = useState(false);
-  const [loaded, setLoaded] = useState(true);
+  const [loaded, setLoaded] = useState(false);
   const classes = useStyles();
   useEffect(() => {
     const timer = setTimeout(() => {
       setLoaded(true);
-      console.log("This will run after 1 second!");
     }, 3000);
     return () => clearTimeout(timer);
   }, []);
-  console.log(currentColor);
+
   return (
     <div
       className={classes.rootStyle}
