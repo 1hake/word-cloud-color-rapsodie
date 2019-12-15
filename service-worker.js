@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/word-cloud-color-rapsodie/precache-manifest.7d2bb01dcbe15d72d68b20e8c4b56d73.js"
+  "/word-cloud-color-rapsodie/precache-manifest.4cf2dc4ee79e73435a08fc44da5848f5.js"
 );
 
 self.addEventListener('message', (event) => {
